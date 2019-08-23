@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>TIR service</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container d-flex">
+            <div class="logo d-flex">
+                <a href="register.html">TIR service</a>
+            </div>
+            <nav class="menu d-flex">
+                <a href="#parking" class="menu-link">parking</a>
+                <a href="#wash" class="menu-link">wash</a>
+                <a href="#repair" class="menu-link">repair</a>
+                <input class="enter-botton" type="image" src="images/enter.jpg" alt="enter" />
+                <input class="reg-botton" type="image" src="images/reg.jpg" alt="registration" />
+                <input class="en-botton" type="image" src="images/en.jpg" alt="language" />
+
+            </nav>
+        </div>
+    </header>
+    <section class="section" id="welcome">
+        <div class="container">
+            <h2>about us</h2>
+            <img src="images/logo.png" alt="logo">
+            <p>TIR Service is one of the leading Ukrainian companies engaged in a wide range of works. From the conversion of trucks to
+                passenger version, interior trim for high-quality tuning of any type of car.</p>
+        </div>
+    </section>
+
+    <section class="section" id="parking">
+        <div class="container">
+            <h2>parking</h2>
+            <form method="POST" action="https://formspree.io/alligarch@gmail.com">
+                <label>
+                    car number:<input type="text" name="car number">
+
+                </label>
+                <br>
+                <label for="user-email">your email:</label>
+                <input id="user-email" type="email" name="user-email">
+                <br>
+                <label>choose the time</label>
+                <label>
+                    <input type="radio" name="time" value="1"> hour
+                </label>
+                <label>
+                    <input type="radio" name="time" value="24"> day
+                </label>
+                <label>
+                    <input type="radio" name="time" value="600"> month
+                </label>
+                <br>
+                <input type="submit" value="get a place">
+            </form>
+        </div>
+    </section>
+
+    <section class="section" id="wash">
+        <div class="container">
+            <h2>wash</h2>
+            <img src="images/moyka11.jpg" alt="wash car girls">
+            <ul class="moyka">
+                <li><a href="#">Only engine</a></li>
+                <li><a href="#">Only the car interior</a></li>
+                <li><a href="#">All parts of car</a></li>
+            </ul>
+
+        </div>
+    </section>
+
+    <section class="section" id="repair">
+        <div class="container">
+            <h2>repair</h2>
+            <img src="images/repeir.jpg" alt="repair car">
+            <p>You do not know how to repair this or that unit of your car? Such happens, and it is necessary
+                say, it is not uncommon. People's well-being is increasing, many are moving from public transport to personal.</p>
+        </div>
+    </section>
+
+
+</body>
+
+</html>
